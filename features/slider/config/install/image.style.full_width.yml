@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: full_width
+label: 'full width'
+effects:
+  f58521bd-0264-4e12-8b11-bcb02cf7d426:
+    uuid: f58521bd-0264-4e12-8b11-bcb02cf7d426
+    id: image_scale
+    weight: 1
+    data:
+      width: 800
+      height: 600
+      upscale: true
