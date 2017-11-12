@@ -1,0 +1,17 @@
+name: Slider
+description: 'Provides Slider content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - block
+  - field
+  - image
+  - menu_ui
+  - node
+  - path
+  - system
+  - user
+  - views
+  - views_block_area
+  - views_slideshow
+version: 8.x-1.0

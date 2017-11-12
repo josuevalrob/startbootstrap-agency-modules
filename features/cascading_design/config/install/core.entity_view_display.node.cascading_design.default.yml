@@ -1,0 +1,46 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cascading_design.body
+    - field.field.node.cascading_design.field_rounded_circle
+    - field.field.node.cascading_design.field_subheading
+    - node.type.cascading_design
+  module:
+    - image
+    - text
+    - user
+id: node.cascading_design.default
+targetEntityType: node
+bundle: cascading_design
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_rounded_circle:
+    weight: 104
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_subheading:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

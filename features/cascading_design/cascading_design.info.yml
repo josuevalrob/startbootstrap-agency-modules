@@ -1,0 +1,17 @@
+name: 'cascading design'
+description: 'Provides cascading design content type and related configuration. based on the about section from the theme <i>startbootstrap agency</i>.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - field
+  - file
+  - image
+  - menu_ui
+  - node
+  - path
+  - system
+  - text
+  - user
+  - views
+version: 8.x-1.0

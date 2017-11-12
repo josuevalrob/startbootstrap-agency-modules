@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: cascading_design
+label: 'cascading design'
+effects:
+  5d8c1532-35a2-4597-b7ac-b8ee77db157b:
+    uuid: 5d8c1532-35a2-4597-b7ac-b8ee77db157b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 200
