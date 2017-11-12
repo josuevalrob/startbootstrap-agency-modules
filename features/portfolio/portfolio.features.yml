@@ -9,4 +9,5 @@ excluded:
   - field.field.node.article.field_tags
   - field.storage.node.field_tags
   - rdf.mapping.node.article
+  - taxonomy.vocabulary.tags
 required: true
