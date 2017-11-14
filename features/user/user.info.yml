@@ -1,0 +1,14 @@
+name: User
+description: 'Provide User related configuration.'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - field
+  - file
+  - image
+  - link
+  - text
+  - user
+  - views
+version: 8.x-1.0

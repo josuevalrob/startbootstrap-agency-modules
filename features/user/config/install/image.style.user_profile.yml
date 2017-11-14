@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: user_profile
+label: 'User profile'
+effects:
+  d0f34d55-7189-48a1-963d-97b4a770e4a8:
+    uuid: d0f34d55-7189-48a1-963d-97b4a770e4a8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 500
+      height: 500
