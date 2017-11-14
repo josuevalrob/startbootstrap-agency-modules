@@ -486,7 +486,20 @@ display:
             value: "            <h2 class=\"section-heading text-uppercase\">About</h2>\n            <h3 class=\"section-subheading text-muted\">Lorem ipsum dolor sit amet consectetur.</h3>"
             format: full_html
           plugin_id: text
-      footer: {  }
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: "Be Part\n<br>\nOf Our\n<br>\nStory!"
+            format: basic_html
+          plugin_id: text
       empty: {  }
       relationships: {  }
       arguments: {  }
