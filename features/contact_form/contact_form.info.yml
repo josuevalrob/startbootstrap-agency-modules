@@ -1,0 +1,11 @@
+name: 'Contact form'
+type: module
+core: 8.x
+dependencies:
+  - block
+  - contact
+  - contact_block
+  - field
+  - field_group
+  - form_placeholder
+  - system
