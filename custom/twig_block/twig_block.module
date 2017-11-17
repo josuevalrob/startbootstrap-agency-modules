@@ -48,7 +48,14 @@ $variables = array(
                   'description' => null
                   ),
       'template' => 'services',
-    ),                 
+    ),       
+    'contact' =>array(
+      'variables' => array(
+                  'title' => 'contact',
+                  'description' => null
+                  ),
+      'template' => 'contact',
+    ),                  
   );
 
   return $variables;
