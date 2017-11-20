@@ -73,6 +73,14 @@ $variables = array(
                   ),
       'template' => 'contact',
     ),                  
+    'footer' =>array(
+      'variables' => array(
+                  'title' => 'footer',
+                  'description' => null
+                  ),
+      'template' => 'footer',
+    ),                  
+  
   );
 
   return $variables;
