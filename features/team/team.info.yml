@@ -6,6 +6,7 @@ dependencies:
   - field
   - image
   - link
+  - system
   - text
   - user
   - views
