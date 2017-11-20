@@ -4,6 +4,7 @@ dependencies:
   config:
     - views.view.team
   module:
+    - system
     - views
   theme:
     - agency
@@ -20,4 +21,9 @@ settings:
   label_display: '0'
   views_label: ''
   items_per_page: none
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
