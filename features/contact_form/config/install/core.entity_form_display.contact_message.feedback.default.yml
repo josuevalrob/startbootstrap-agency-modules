@@ -16,6 +16,7 @@ third_party_settings:
         - mail
         - field_phone
         - copy
+        - preview
       parent_name: ''
       weight: 0
       format_type: tabs
@@ -46,12 +47,12 @@ bundle: feedback
 mode: default
 content:
   copy:
-    weight: 4
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   field_phone:
-    weight: 3
+    weight: 4
     settings:
       size: 60
       placeholder: ''
@@ -59,7 +60,7 @@ content:
     type: string_textfield
     region: content
   mail:
-    weight: 2
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -72,12 +73,12 @@ content:
     region: content
     third_party_settings: {  }
   name:
-    weight: 1
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
   preview:
-    weight: 3
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }
