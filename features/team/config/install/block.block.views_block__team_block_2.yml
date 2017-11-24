@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.team
+  module:
+    - system
+    - views
+  theme:
+    - agency
+id: views_block__team_block_2
+theme: agency
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'views_block:team-block_2'
+settings:
+  id: 'views_block:team-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/node/*'
+    negate: false
+    context_mapping: {  }
