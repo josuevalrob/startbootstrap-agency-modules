@@ -3,6 +3,7 @@ description: 'Provides Slider content type and related configuration. '
 type: module
 core: 8.x
 dependencies:
+  - bg_image_formatter
   - block
   - field
   - image

@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: banner_1900_1250
+label: 'Banner 1900 * 1250'
+effects:
+  77f37843-8ffc-477e-a119-1fbcedb89abe:
+    uuid: 77f37843-8ffc-477e-a119-1fbcedb89abe
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1900
+      height: 1250
