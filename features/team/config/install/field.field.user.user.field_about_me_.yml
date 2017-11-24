@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_about_me_
+  module:
+    - text
+    - user
+id: user.user.field_about_me_
+field_name: field_about_me_
+entity_type: user
+bundle: user
+label: 'About me '
+description: 'Un poco sobre tu biografía, lo qué haces, etc. '
+required: false
+translatable: false
+default_value:
+  -
+    summary: ''
+    value: "<p>Vivamus suscipit tortor eget felis porttitor volutpat. Donec sollicitudin molestie malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus.</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

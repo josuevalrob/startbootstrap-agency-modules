@@ -1,7 +1,8 @@
-langcode: en
+langcode: es
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_about_me_
     - field.field.user.user.field_charge
     - field.field.user.user.field_facebook_account
     - field.field.user.user.field_github_account
@@ -24,6 +25,15 @@ content:
     region: content
   contact:
     weight: 5
+    region: content
+  field_about_me_:
+    weight: 12
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
     region: content
   field_charge:
     weight: 7
@@ -79,4 +89,5 @@ content:
     third_party_settings: {  }
     weight: -1
     region: content
-hidden: {  }
+hidden:
+  langcode: true

@@ -1,7 +1,8 @@
-langcode: en
+langcode: es
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_about_me_
     - field.field.user.user.field_charge
     - field.field.user.user.field_facebook_account
     - field.field.user.user.field_github_account
@@ -19,6 +20,13 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
+  field_about_me_:
+    weight: 11
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
   field_charge:
     weight: 6
     label: above
@@ -86,4 +94,5 @@ content:
       image_link: content
     third_party_settings: {  }
     label: hidden
-hidden: {  }
+hidden:
+  langcode: true
