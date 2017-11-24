@@ -1,0 +1,20 @@
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_icon
+    - node.type.article
+id: node.article.field_icon
+field_name: field_icon
+entity_type: node
+bundle: article
+label: Icon
+description: 'Busca el <i>icono</i>  <a href="http://fontawesome.io/icons/" target="_blank">aqui: </a> una vez que lo tengas definido, copia y pega, solo la clase del icono, por <a href="http://fontawesome.io/icon/plus/" target="_blank">ejemplo</a>: <b>fa-plus. </b>'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'fa-plus '
+default_value_callback: ''
+settings: {  }
+field_type: string

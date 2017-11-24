@@ -1,4 +1,4 @@
-langcode: es
+langcode: en
 status: true
 dependencies:
   config:
@@ -8,22 +8,23 @@ dependencies:
     - views
   theme:
     - agency
-id: views_block__portfolio_block_1
+id: views_block__portfolio_block_2
 theme: agency
-region: portfolio
-weight: -10
+region: team
+weight: -9
 provider: null
-plugin: 'views_block:portfolio-block_1'
+plugin: 'views_block:portfolio-block_2'
 settings:
-  id: 'views_block:portfolio-block_1'
+  id: 'views_block:portfolio-block_2'
   label: ''
   provider: views
   label_display: '0'
   views_label: ''
   items_per_page: none
+  context_mapping: {  }
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: '/user/*'
     negate: false
     context_mapping: {  }
